@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const pool = require("../dbConfig");
+const Autoincrease = require("../middleware/autoincrease");
 
 //----------------------add forum-------------------------
 
